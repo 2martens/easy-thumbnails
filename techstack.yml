@@ -1,0 +1,65 @@
+repo_name: 2martens/easy-thumbnails
+report_id: ff619d6c6b025ac4637eb17a5d4e47a5
+repo_type: Public
+timestamp: '2023-11-20T08:52:03+00:00'
+requested_by: SmileyChris
+provider: github
+branch: master
+detected_tools_count: 5
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source: Repo Metadata
+- name: Django
+  description: The Web framework for perfectionists with deadlines
+  website_url: https://www.djangoproject.com/
+  version: 1.4.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/994/4aGjtNQv.png
+  detection_source_url: setup.py
+  detection_source: setup.py
+  last_updated_by: Chris Beaven
+  last_updated_on: 2014-04-28 00:22:07.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source: ".travis.yml"
+  last_updated_by: Chris Beaven
+  last_updated_on: 2013-06-17 05:01:54.000000000 Z
+- name: Pillow
+  description: Python Imaging Library
+  website_url: https://python-pillow.github.io/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/2375/default_1f67b0ca7416a9f52beb655f90b5602d5ef74b75.jpg
+  detection_source: setup.py
+  last_updated_by: Chris Beaven
+  last_updated_on: 2013-06-17 05:35:43.000000000 Z
